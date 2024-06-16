@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ObjectMapperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-05T05:44:21" hostname="hyundigda01.local" time="0.07">
+  <properties/>
+  <testcase name="test" classname="ObjectMapperTest" time="0.07"/>
+  <system-out><![CDATA[{"plain":{}}]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

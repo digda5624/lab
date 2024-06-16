@@ -1,14 +1,4 @@
 
-
-//
-//dependencies {
-//    testImplementation(kotlin("test"))
-//}
-//
-//tasks.test {
-//    useJUnitPlatform()
-//}
-//
-//kotlin {
-//    jvmToolchain(8)
-//}
+dependencies {
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.12.3")
+}
