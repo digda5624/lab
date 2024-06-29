@@ -1,26 +1,34 @@
-apply(from = "${rootDir}/gradle-submodule/core/default.gradle.kts")
-apply(from = "${rootDir}/gradle-submodule/core/properties.gradle.kts")
-
-
 buildscript {
-    apply(from = "${rootDir}/gradle-submodule/core/properties.gradle.kts")
-
     val versions: Map<String, MutableMap<String, Any>> by extra
-
-    repositories {
-        mavenCentral()
-    }
+    apply(from = "${rootDir}/gradle-submodule/core/properties.gradle.kts")
+    apply(from = "${rootDir}/gradle-submodule/core/buildscript.gradle")
 
     dependencies {
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${versions["langs"]!!["kotlin"]}")
         classpath("org.jetbrains.kotlin:kotlin-allopen:${versions["langs"]!!["kotlin"]}")
         classpath("org.jetbrains.kotlin:kotlin-noarg:${versions["langs"]!!["kotlin"]}")
     }
+
+    repositories {
+        mavenCentral()
+    }
+
 }
 
+repositories {
+    mavenCentral()
+}
+apply(from = "${rootDir}/gradle-submodule/core/dependencies.gradle.kts")
+apply(plugin = "org.springframework.boot")
+
 subprojects {
-    apply(from = "${rootDir}/gradle-submodule/core/default.gradle.kts")
-    apply(from = "${rootDir}/gradle-submodule/core/properties.gradle.kts")
+    val versions: Map<String, MutableMap<String, Any>> by extra
+    apply(plugin = "kotlin")
+    apply(from = "${rootDir}/gradle-submodule/core/dependencies.gradle.kts")
+
+    repositories {
+        mavenCentral()
+    }
 
     dependencies {
         val testImplementation by configurations

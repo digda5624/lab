@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/new-lab.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/new-lab.buildSrc.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coopon/new-lab.coopon.main.iml" filepath="$PROJECT_DIR$/.idea/modules/coopon/new-lab.coopon.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coopon/new-lab.coopon.test.iml" filepath="$PROJECT_DIR$/.idea/modules/coopon/new-lab.coopon.test.iml" />
     </modules>
   </component>
 </project>

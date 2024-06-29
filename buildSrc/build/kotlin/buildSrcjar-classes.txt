@@ -1,1 +1,1 @@
-/Users/hyun_digda/Documents/projects/new-lab/buildSrc/build/classes/kotlin/main/Hello.class
+/Users/hyun_digda/Documents/projects/new-lab/buildSrc/build/classes/kotlin/main/Hello.class:/Users/hyun_digda/Documents/projects/new-lab/buildSrc/build/classes/kotlin/main/digda/task/DigdaTask.class
