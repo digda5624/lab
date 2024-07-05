@@ -1,0 +1,3 @@
+[submodule "gradle-submodule"]
+	path = gradle-submodule
+	url = git@github.com:digda5624/gradle-submodule.git
