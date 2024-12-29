@@ -1,3 +1,4 @@
-rootProject.name = "labs"
-include("coopon")
-include("gradle-tasks")
+rootProject.name = "project-template"
+
+include("template-api")
+include("template-app")

@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sample
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: tmdrndml7&
+  jpa:
+    open-in-view: false
